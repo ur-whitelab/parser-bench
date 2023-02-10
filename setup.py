@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 exec(open("src/parser_bench/version.py").read())
 
@@ -13,8 +13,8 @@ setup(
     author_email="white.d.andrew@gmail.com, mail@kjablonka.com",
     url="https://github.com/ur-whitelab/parser-bench",
     license="MIT",
-     packages=find_packages('src'),
-    package_dir={'': 'src'},
+    packages=find_packages("src"),
+    package_dir={"": "src"},
     install_requires=["pydantic", "fire", "loguru", "requests"],
     test_suite="tests",
     long_description=long_description,

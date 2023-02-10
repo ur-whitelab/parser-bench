@@ -1,4 +1,5 @@
 import os
+
 from parser_bench.validator import validate_directory
 
 _THIS_DIR = os.path.dirname(os.path.abspath(__file__))

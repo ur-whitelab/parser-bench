@@ -98,8 +98,8 @@ def validate_directory(directory):
 
     input_dir = base_directory / "inputs"
     output_dir = base_directory / "outputs"
-    input_files = sorted(input_dir.glob('*'))
-    output_files = sorted(output_dir.glob('*'))
+    input_files = sorted(input_dir.glob("*"))
+    output_files = sorted(output_dir.glob("*"))
 
     if len(input_files) != len(output_files):
         raise ValueError("Number of input files must equal the number of output files")
@@ -124,13 +124,13 @@ def validate_directory(directory):
 
 def validate_directories(basedir):
     basedir = Path(basedir)
-    subdirs = basedir.glob('*')
+    subdirs = basedir.glob("*")
 
     for subdir in subdirs:
         if not subdir.is_dir():
-            logger.warning(f'File found at unexpected place {subdir}')
+            logger.warning(f"File found at unexpected place {subdir}")
             continue
-        logger.info(f'Validating {subdir}')
+        logger.info(f"Validating {subdir}")
         validate_directory(subdir)
-    
+
     return True

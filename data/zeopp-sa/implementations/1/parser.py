@@ -1,4 +1,5 @@
-import re 
+import re
+
 
 def parse_sa_zeopp(filecontent):
     regex_unitcell = re.compile(r"Unitcell_volume: ((\d+\.\d+)|\d+)|$")
@@ -21,4 +22,4 @@ def parse_sa_zeopp(filecontent):
         "nasa_m2g": float(re.findall(nasa_m2g, filecontent)[0][0]),
     }
 
-    return 
+    return
