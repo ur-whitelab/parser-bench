@@ -1,5 +1,7 @@
 # parser-bench
 
+A dataset and benchmark for file to file parser construction with LLMs that write code. 
+
 ## structure 
 
 For each filetype there is one directory with multiple subdirectories:
@@ -7,7 +9,7 @@ For each filetype there is one directory with multiple subdirectories:
 ```
 myfiletype
     meta.json
-    example_implementations
+    implementations
         1
             meta.json
             parser.py
@@ -18,8 +20,6 @@ myfiletype
         1.json
         2.json
 ```
-
-### Example implementations
 
 Check `data/zeopp-sa` for an example 
 
@@ -42,3 +42,4 @@ parserbench.validate_dirs data/
 - [chemical-files-registry](https://github.com/kjappelbaum/chemical-files-registry): started as registry for filetypes that are commonly used in chemistry
 
 - [metadata_extractors_registry](https://github.com/marda-alliance/metadata_extractors_registry): started as part of the [MARDA](http://www.marda-alliance.org/) extractors working group
+
