@@ -59,7 +59,9 @@ JavaScript/TypeScript:
 
 #### How do I structure the code example?
 
+Please provide the implementation as function that accepts the file as string and returns the parsed `json` string.
 ### Validating the data 
+
 
 Install the package
 
