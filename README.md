@@ -6,6 +6,7 @@ A dataset and benchmark for file to file parser construction with LLMs that writ
 
 For each filetype there is one directory with multiple subdirectories:
 
+
 ```
 myfiletype
     meta.json
@@ -22,6 +23,41 @@ myfiletype
 ```
 
 Check `data/zeopp-sa` for an example 
+
+### FAQ
+
+#### What languages/packages/frameworks can I use for the example implementation? 
+
+Please focus on implementation examples in 
+
+- Python (preferred)
+- JavaScript
+- TypeScript 
+
+as our current infrastructure can only test code iin these languages. 
+
+In the example implementations, please only use the standard libraries and the following additional dependencies: 
+
+Python:
+- [`pandas`]()
+- [`numpy`]() 
+
+JavaScript/TypeScript:
+  - [crypto-md5](#crypto-md5)
+  - [base64-js](#base64-js)
+  - [fast-xml-parser](#fast-xml-parser)
+  - [jszip]([jszip])
+  - [node-gzip](#node-gzip)
+  - [pako](#pako)
+  - [papaparse](#papaparse)
+  - [xlsx](#xlsx)
+  - [ml-matrix](#ml-matrix)
+  - [fft.js](#fft.js)
+  - [Array](#array)
+  - [Array XY](#array-xy)
+
+
+#### How do I structure the code example?
 
 ### Validating the data 
 
