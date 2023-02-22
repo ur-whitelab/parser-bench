@@ -1,0 +1,8 @@
+{
+  "id": "zeopp-sa",
+  "name": "zeopp-sa",
+  "subject": ["compchem", "pore_analysis", "regex"],
+  "description": "Output file for the sa command (surface area analysis) of the zeo++ program",
+  "associated_software": ["zeo++"],
+  "extension": ".sa"
+}
