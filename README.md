@@ -26,6 +26,10 @@ Check `data/zeopp-sa` for an example
 
 ### FAQ
 
+#### What do I get from contributing? 
+
+Besides helping to advance science, meaningful contributions (i.e., merged PR adding an entry) will qualify for co-authorship on a paper (that might come out of this work).
+
 #### What languages/packages/frameworks can I use for the example implementation? 
 
 Please focus on implementation examples in 
@@ -34,27 +38,26 @@ Please focus on implementation examples in
 - JavaScript
 - TypeScript 
 
-as our current infrastructure can only test code iin these languages. 
+as our current infrastructure can only test code in these languages. 
 
 In the example implementations, please only use the standard libraries and the following additional dependencies: 
 
 Python:
-- [`pandas`]()
-- [`numpy`]() 
+- [`pandas`](https://pandas.pydata.org/)
+- [`numpy`](https://numpy.org/) 
 
 JavaScript/TypeScript:
-  - [crypto-md5](#crypto-md5)
-  - [base64-js](#base64-js)
-  - [fast-xml-parser](#fast-xml-parser)
-  - [jszip]([jszip])
-  - [node-gzip](#node-gzip)
-  - [pako](#pako)
-  - [papaparse](#papaparse)
-  - [xlsx](#xlsx)
-  - [ml-matrix](#ml-matrix)
-  - [fft.js](#fft.js)
-  - [Array](#array)
-  - [Array XY](#array-xy)
+  - [`crypto-md5`](https://www.npmjs.com/package/crypto-md5)
+  - [`base64-js`](https://www.npmjs.com/package/base64-js)
+  - [`fast-xml-parser`](https://www.npmjs.com/package/fast-xml-parser)
+  - [`jszip`](https://www.npmjs.com/package/jszip)
+  - [`node-gzip`](https://www.npmjs.com/package/node-gzip)
+  - [`pako`](https://www.npmjs.com/package/pako)
+  - [`papaparse`](https://www.npmjs.com/package/papaparse)
+  - [`xlsx`](https://www.npmjs.com/package/xlsx)
+  - [`ml-matrix`](https://www.npmjs.com/package/ml-matrix)
+  - [`fft.js`](https://www.npmjs.com/package/fft-js)
+  - [`Array`](https://www.npmjs.com/package/array)
 
 
 #### How do I structure the code example?
