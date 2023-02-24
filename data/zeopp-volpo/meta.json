@@ -1,0 +1,8 @@
+{
+  "id": "zeopp-volpo",
+  "name": "zeopp-volpo",
+  "subject": ["compchem", "pore_analysis", "regex"],
+  "description": "Output file for the volpo command (pore analysis analysis) of the zeo++ program",
+  "associated_software": ["zeo++"],
+  "extension": ".vol"
+}
